@@ -1,0 +1,32 @@
+{
+    "version": "0.2",
+    "floorplan": "FE_LROP",
+    "project": {
+        "name": "employee-management",
+        "targetFolder": "/home/user/projects/testtest",
+        "title": "Employee Management",
+        "description": "Manage employees and view their related goals",
+        "ui5Version": "1.132.1",
+        "localUI5Version": "1.82.2",
+        "sapux": true
+    },
+    "service": {
+        "servicePath": "/service/testtest/",
+        "capService": {
+            "projectPath": "/home/user/projects/testtest",
+            "serviceName": "testtestSrv",
+            "serviceCdsPath": "srv/service.cds"
+        }
+    },
+    "entityConfig": {
+        "mainEntity": {
+            "entityName": "Employees"
+        },
+        "generateLROPAnnotations": true
+    },
+    "projectType": "LIST_REPORT_OBJECT_PAGE",
+    "telemetryData": {
+        "generationSourceName": "AI Headless",
+        "generationSourceVersion": "1.17.5"
+    }
+}
