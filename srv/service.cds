@@ -9,4 +9,6 @@ service testtestSrv {
   entity Goals as projection on my.Goals;
   @odata.draft.enabled
   entity Reviews as projection on my.Reviews;
+
+  action question(question: String) returns String;
 }
